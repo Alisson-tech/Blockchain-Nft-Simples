@@ -1,0 +1,56 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env/
+.env.*
+
+# Flask
+instance/
+*.db
+*.sqlite3
+
+# Web3-related (em geral, nada muito específico pra ignorar aqui)
+
+# Node.js / Solidity (se você usar npm/hardhat para os contratos)
+node_modules/
+build/
+artifacts/
+cache/
+coverage/
+
+# IDEs e editores
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Testing
+htmlcov/
+coverage/
+
+# Git
+.git/
+
+# Optional: Ignorar arquivos de deploy do Hardhat/Foundry
+ignition/deployments/
+out/
+
+# Solidity artifacts (se usar Hardhat ou Foundry)
+*.t.sol
+*.dbg.json
+
+# Others
+*.pem
+*.key
+*.crt
