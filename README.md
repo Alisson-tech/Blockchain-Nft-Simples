@@ -1,24 +1,32 @@
-# SmartContract & Flask-Python
+# 💠 SmartContract & Flask-Python
 
-Este projeto implementa um contrato inteligente (Smart Contract) para criar um token de item na blockchain utilizando Solidity, juntamente com uma API em Flask para interagir com o contrato e cadastrar tokens de item na blockchain. A comunicação com a blockchain é feita utilizando a biblioteca Web3.js, e Ganache é usado para rodar uma blockchain local durante o desenvolvimento.
+Este projeto demonstra a integração entre um **Smart Contract** desenvolvido em **Solidity** e uma **API em Flask**, que interage com a blockchain para criar e gerenciar tokens de item. A blockchain local é executada com **Ganache**, e a comunicação é feita utilizando a biblioteca **Web3.py** no backend e **Hardhat** no ambiente de desenvolvimento.
 
-## Estrutura do Projeto
+---
 
-O projeto contém duas pastas principais:
+## 🗂 Estrutura do Projeto
 
-- `SmartContract`: Contém o código em Solidity para a criação do contrato inteligente de itemToken.
-- `Flask-Python`: Contém a API em Flask que interage com a blockchain para criar e gerenciar tokens de itens.
+O repositório está dividido em duas pastas principais:
 
-## Requisitos
+- `SmartContract`: Código em Solidity responsável pelo contrato inteligente `ItemToken`.
+- `Flask-Python`: API em Flask responsável por interagir com a blockchain e registrar tokens.
 
-### Pré-requisitos
+---
 
-- Ganache para rodar a blockchain localmente.
-- Node.js e Hardhat para compilar e implantar o contrato inteligente.
-- Python e Flask para a API.
-- Web3.py para a comunicação com a blockchain no Flask.
+## 🔧 Requisitos
 
-## Instalação
+### Pré-requisitos instalados:
+
+- [Ganache](https://trufflesuite.com/ganache/) (blockchain local)
+- [Node.js](https://nodejs.org/)
+- [Hardhat](https://hardhat.org/)
+- [Python 3.x](https://www.python.org/)
+- [Flask](https://flask.palletsprojects.com/)
+- [Web3.py](https://web3py.readthedocs.io/)
+
+---
+
+## ⚙️ Instalação
 
 ### 1. SmartContract
 
